@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="en" dir="ltr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تحدي التنفيذ ⚡ | Build It</title>
+    <title>Execution Challenge ⚡ | Build It</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="work-mode.css">
@@ -16,41 +16,41 @@
     <div id="welcome-overlay" class="welcome-overlay">
         <div class="landing-container">
             <div class="landing-hero">
-                <h1 class="landing-title">ابدأ رحلتك التقنية 🚀</h1>
-                <p class="landing-desc">نفّذ مشاريع حقيقية وادخل سوق العمل</p>
-                <button id="btn-start-journey" class="btn-start-journey">ابدأ الآن</button>
+                <h1 class="landing-title">Start Your Tech Journey 🚀</h1>
+                <p class="landing-desc">Build real projects and enter the job market</p>
+                <button id="btn-start-journey" class="btn-start-journey">Start Now</button>
             </div>
 
             <div class="landing-projects">
-                <h2 class="landing-section-title">أمثلة لمهام حقيقية ستنفذها</h2>
+                <h2 class="landing-section-title">Examples of real tasks you will build</h2>
                 <div class="landing-cards">
                     <div class="l-card">
                         <div class="l-card-header">
-                            <span class="l-diff easy">🟢 سهل</span>
+                            <span class="l-diff easy">🟢 Easy</span>
                         </div>
-                        <h3>منصة أعمال حرة</h3>
-                        <p>بناء واجهة أساسية لعرض المستقلين ومشاريعهم.</p>
+                        <h3>Freelance Platform</h3>
+                        <p>Build a basic interface to showcase freelancers and their projects.</p>
                     </div>
                     <div class="l-card">
                         <div class="l-card-header">
-                            <span class="l-diff medium">🟡 متوسط</span>
+                            <span class="l-diff medium">🟡 Medium</span>
                         </div>
-                        <h3>تطبيق إدارة مهام</h3>
-                        <p>تطبيق لتنظيم المهام اليومية مع ميزات السحب والإفلات.</p>
+                        <h3>Task Management App</h3>
+                        <p>An app to organize daily tasks with drag-and-drop features.</p>
                     </div>
                     <div class="l-card">
                         <div class="l-card-header">
-                            <span class="l-diff hard">🔴 صعب</span>
+                            <span class="l-diff hard">🔴 Hard</span>
                         </div>
-                        <h3>بناء متجر إلكتروني</h3>
-                        <p>متجر متكامل بسلة مشتريات ودفع إلكتروني.</p>
+                        <h3>E-commerce Store</h3>
+                        <p>A complete store with cart and online payment.</p>
                     </div>
                     <div class="l-card">
                         <div class="l-card-header">
-                            <span class="l-diff hard">🔴 صعب</span>
+                            <span class="l-diff hard">🔴 Hard</span>
                         </div>
-                        <h3>لوحة تحليل بيانات</h3>
-                        <p>Dashboard تعرض إحصائيات حية ورسوم بيانية (Charts).</p>
+                        <h3>Data Analytics Dashboard</h3>
+                        <p>Dashboard showing live stats and charts.</p>
                     </div>
                 </div>
             </div>
@@ -65,25 +65,24 @@
         <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: center;">
             <button id="btn-work-mode" onclick="openWorkMode()" class="mode-toggle"
                 style="background: rgba(139, 92, 246, 0.2); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.5); font-weight: 700; padding: 5px 12px; border-radius: 8px; cursor: pointer; transition: 0.3s; font-size: 0.9rem;">⚔️
-                ادخل وضع الشركة</button>
+                Enter Company Mode</button>
             <button id="btn-learning-mode" onclick="toggleLearningMode()" class="mode-toggle">🟢 Beginner Mode</button>
             <button onclick="resetXP()"
                 style="background: rgba(244, 63, 94, 0.2); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.5); padding: 5px 12px; border-radius: 8px; cursor: pointer; font-weight: 700; font-family: 'Cairo'; transition: 0.3s; font-size: 0.9rem;"
                 onmouseover="this.style.background='rgba(244, 63, 94, 0.4)'"
-                onmouseout="this.style.background='rgba(244, 63, 94, 0.2)'">🔄 تصفير الـ XP</button>
+                onmouseout="this.style.background='rgba(244, 63, 94, 0.2)'">🔄 Reset XP</button>
         </div>
     </div>
 
     <header class="app-header">
         <div class="path-badge">Frontend Developer Path 🚀</div>
-        <h1 class="app-title">رحلة بناء المهارات</h1>
+        <h1 class="app-title">Skill Building Journey</h1>
 
         <!-- Overall Progress -->
         <div class="overall-progress">
             <div class="prog-labels">
-                <span id="proj-progress-text">أنجزت 0 / 12 مشاريع</span>
-                <span id="unlock-progress-text" style="color: var(--accent);">باقي لك 3 مشاريع لفتح المرحلة
-                    التالية</span>
+                <span id="proj-progress-text">Completed 0 / 12 Projects</span>
+                <span id="unlock-progress-text" style="color: var(--accent);">3 projects left to unlock next phase</span>
             </div>
             <div class="prog-container" style="height: 12px;">
                 <div class="prog-bar" id="overall-prog-bar"></div>
@@ -96,18 +95,18 @@
         <!-- Daily Mission -->
         <div class="daily-mission-card" id="daily-mission">
             <div class="dm-header">
-                <h3>🎯 مهمة اليوم</h3>
+                <h3>🎯 Daily Mission</h3>
                 <span class="dm-xp">+150 XP</span>
             </div>
-            <p id="dm-text">ابنِ Navbar احترافي متجاوب</p>
-            <button class="btn-dm" id="btn-dm-start" onclick="startDailyMission()">ابدأ المهمة الآن</button>
+            <p id="dm-text">Build a professional responsive Navbar</p>
+            <button class="btn-dm" id="btn-dm-start" onclick="startDailyMission()">Start Mission Now</button>
         </div>
 
         <!-- Career Paths Section -->
         <div id="career-paths-section" style="margin-bottom: 40px;">
             <div class="phase-title">
                 <div class="dot" style="background: var(--primary); box-shadow: 0 0 15px var(--primary);"></div>
-                المسارات المهنية 🚀
+                Career Paths 🚀
             </div>
             <div class="paths-grid" id="paths-grid">
                 <!-- Paths will be injected here -->
@@ -124,19 +123,18 @@
             <!-- Sidebar (Smart Guidance) -->
             <aside class="sidebar">
                 <div class="leaderboard-card">
-                    <h3>🚀 خطوتك القادمة</h3>
+                    <h3>🚀 Your Next Step</h3>
                     <p id="next-step-text"
                         style="font-weight: 700; color: var(--text-main); margin-top: 15px; font-size: 1.1rem; line-height: 1.8;">
-                        جاري التحليل...</p>
+                        Analyzing...</p>
                 </div>
 
                 <div class="leaderboard-card" style="margin-top: 30px;">
-                    <h3 style="color: var(--accent);">💡 نقترح لك الآن</h3>
+                    <h3 style="color: var(--accent);">💡 Recommended for you</h3>
                     <p id="rec-text"
                         style="font-weight: 700; color: var(--text-dim); margin-top: 15px; font-size: 1.1rem; line-height: 1.8;">
-                        جاري التحميل...</p>
-                    <button class="btn-dm" id="btn-rec-start" style="width: 100%; margin-top: 20px;">عرض
-                        التفاصيل</button>
+                        Loading...</p>
+                    <button class="btn-dm" id="btn-rec-start" style="width: 100%; margin-top: 20px;">View Details</button>
                 </div>
             </aside>
 
@@ -147,7 +145,7 @@
     <div class="drawer-overlay" id="drawer-overlay"></div>
     <div class="side-drawer" id="side-drawer">
         <div class="drawer-top">
-            <h2 id="drawer-title" style="font-size: 2.2rem; font-weight: 900; margin-bottom: 5px;">اسم المشروع</h2>
+            <h2 id="drawer-title" style="font-size: 2.2rem; font-weight: 900; margin-bottom: 5px;">Project Name</h2>
             <p style="color: var(--text-dim); font-size: 1rem;">Work Environment: Enterprise Edition 🏢</p>
         </div>
 
@@ -156,8 +154,7 @@
         </div>
 
         <button id="close-drawer"
-            style="background: transparent; border: 1px solid var(--border); color: var(--text-dim); width: 100%; padding: 15px; border-radius: 12px; margin-top: 30px; cursor: pointer; font-weight: 700;">إغلاق
-            والعودة للوحة المشاريع</button>
+            style="background: transparent; border: 1px solid var(--border); color: var(--text-dim); width: 100%; padding: 15px; border-radius: 12px; margin-top: 30px; cursor: pointer; font-weight: 700;">Close and Return to Projects</button>
     </div>
 
     <!-- Gamification Popups & Confetti -->
@@ -165,8 +162,8 @@
         <div class="popup-card" id="popup-card">
             <div class="popup-icon" id="popup-icon">🎉</div>
             <h2 id="popup-title">+100 XP</h2>
-            <p id="popup-desc">وصلت Level 3</p>
-            <button class="btn-finish" style="margin-top: 25px;" onclick="closePopup()">رائع!</button>
+            <p id="popup-desc">You reached Level 3</p>
+            <button class="btn-finish" style="margin-top: 25px;" onclick="closePopup()">Awesome!</button>
         </div>
     </div>
 
