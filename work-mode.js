@@ -3,35 +3,35 @@ const workTasksPool = [
         id: 1,
         company: "Startup Tech",
         role: "Frontend Developer",
-        taskTitle: "صفحة تسجيل دخول احترافية",
+        taskTitle: "Professional Login Page",
         difficulty: "easy",
-        difficultyLabel: "🟢 سهل",
+        difficultyLabel: "🟢 Easy",
         xp: 100,
         reqs: [
-            "تصميم صفحة Login كاملة",
+            "Design a complete Login page",
             "Email + Password Inputs",
-            "Validation (رسائل خطأ)",
-            "زر تسجيل دخول",
+            "Validation (error messages)",
+            "Login button",
             "Responsive Design"
         ],
-        deadline: "ساعتين",
+        deadline: "2 hours",
         checklist: [
-            "بناء الواجهة الأساسية",
-            "إضافة Validation للحقول",
-            "تحسين التصميم والألوان",
-            "جعلها متجاوبة Responsive"
+            "Build the core UI",
+            "Add field Validation",
+            "Improve design and colors",
+            "Make it Responsive"
         ],
         feedback: [
-            { type: "good", text: "UI ممتاز وتجربة مستخدم جيدة." },
-            { type: "bad", text: "Validation يحتاج تحسينات أكثر." }
+            { type: "good", text: "Excellent UI and good user experience." },
+            { type: "bad", text: "Validation needs more improvements." }
         ],
         codeSnippet: `<!-- Login Page Structure -->
 <div class="login-container">
-    <h2>تسجيل الدخول</h2>
+    <h2>Login</h2>
     <form id="login-form">
-        <input type="email" placeholder="البريد الإلكتروني" />
-        <input type="password" placeholder="كلمة المرور" />
-        <button type="submit">دخول</button>
+        <input type="email" placeholder="Email address" />
+        <input type="password" placeholder="Password" />
+        <button type="submit">Sign In</button>
     </form>
 </div>`
     },
@@ -39,66 +39,66 @@ const workTasksPool = [
         id: 2,
         company: "E-Commerce Solutions",
         role: "UI Developer",
-        taskTitle: "تصميم كارت لمنتج جديد",
+        taskTitle: "Design a New Product Card",
         difficulty: "easy",
-        difficultyLabel: "🟢 سهل",
+        difficultyLabel: "🟢 Easy",
         xp: 50,
         reqs: [
-            "صورة المنتج",
-            "اسم المنتج والسعر",
-            "زر الإضافة للسلة",
-            "تأثير Hover",
+            "Product image",
+            "Product name and price",
+            "Add to cart button",
+            "Hover effect",
             "Responsive"
         ],
-        deadline: "ساعة واحدة",
+        deadline: "1 hour",
         checklist: [
-            "هيكلة الـ Card",
-            "إضافة صورة وتنسيقها",
-            "تنسيق النصوص",
-            "برمجة زر الإضافة"
+            "Structure the Card",
+            "Add and style the image",
+            "Style the text",
+            "Program the add button"
         ],
         feedback: [
-            { type: "good", text: "تصميم الكارت عصري وجذاب." },
-            { type: "bad", text: "تأثير الـ Hover يحتاج نعومة أكثر." }
+            { type: "good", text: "The card design is modern and attractive." },
+            { type: "bad", text: "The Hover effect needs to be smoother." }
         ],
         codeSnippet: `<!-- Product Card Structure -->
 <div class="product-card">
     <img src="product.jpg" alt="Product" />
-    <h3>اسم المنتج</h3>
+    <h3>Product Name</h3>
     <p>99.99$</p>
-    <button>أضف للسلة</button>
+    <button>Add to Cart</button>
 </div>`
     },
     {
         id: 3,
         company: "DataCorp",
         role: "Frontend Engineer",
-        taskTitle: "لوحة تحكم (Dashboard) للإحصائيات",
+        taskTitle: "Statistics Dashboard",
         difficulty: "hard",
-        difficultyLabel: "🔴 صعب",
+        difficultyLabel: "🔴 Hard",
         xp: 300,
         reqs: [
-            "تصميم Sidebar و Topbar",
-            "عرض كروت إحصائيات",
-            "إنشاء جدول بيانات",
+            "Design Sidebar and Topbar",
+            "Display statistics cards",
+            "Create a data table",
             "Responsive Design"
         ],
-        deadline: "يوم عمل",
+        deadline: "1 working day",
         checklist: [
-            "بناء الـ Layout الأساسي",
-            "تصميم الـ Sidebar",
-            "تنسيق كروت الإحصائيات",
-            "إنشاء وتنسيق الجدول"
+            "Build the core Layout",
+            "Design the Sidebar",
+            "Style the statistics cards",
+            "Create and style the table"
         ],
         feedback: [
-            { type: "good", text: "الـ Layout ممتاز جداً ومنظم." },
-            { type: "bad", text: "التجاوب في الشاشات الصغيرة يحتاج عمل أكثر." }
+            { type: "good", text: "The Layout is excellent and very well organized." },
+            { type: "bad", text: "Responsiveness on small screens needs more work." }
         ],
         codeSnippet: `<!-- Dashboard Structure -->
 <div class="dashboard">
-    <aside class="sidebar">الروابط</aside>
+    <aside class="sidebar">Links</aside>
     <main class="content">
-        <header class="topbar">البحث</header>
+        <header class="topbar">Search</header>
         <div class="stats-grid">...</div>
     </main>
 </div>`
@@ -107,32 +107,32 @@ const workTasksPool = [
         id: 4,
         company: "AgileSoft",
         role: "Web Developer",
-        taskTitle: "تطبيق إدارة مهام (To-Do)",
+        taskTitle: "Task Manager App (To-Do)",
         difficulty: "medium",
-        difficultyLabel: "🟡 متوسط",
+        difficultyLabel: "🟡 Medium",
         xp: 150,
         reqs: [
-            "إضافة مهمة جديدة",
-            "حذف مهمة",
-            "تعليم المهمة كمكتملة",
-            "حفظ في LocalStorage"
+            "Add a new task",
+            "Delete a task",
+            "Mark a task as complete",
+            "Save to LocalStorage"
         ],
-        deadline: "3 ساعات",
+        deadline: "3 hours",
         checklist: [
-            "هيكلة واجهة التطبيق",
-            "برمجة إضافة المهمة",
-            "برمجة الحذف والتحديث",
-            "ربط LocalStorage"
+            "Structure the app UI",
+            "Program task addition",
+            "Program delete and update",
+            "Connect LocalStorage"
         ],
         feedback: [
-            { type: "good", text: "الوظائف الأساسية تعمل بشكل سليم." },
-            { type: "bad", text: "التصميم والـ UI يحتاج أن يكون أحدث." }
+            { type: "good", text: "Core functions work correctly." },
+            { type: "bad", text: "The design and UI needs to look more modern." }
         ],
         codeSnippet: `<!-- Todo App Structure -->
 <div class="todo-app">
-    <h2>المهام</h2>
+    <h2>Tasks</h2>
     <input type="text" id="task-input" />
-    <button id="add-btn">إضافة</button>
+    <button id="add-btn">Add</button>
     <ul id="task-list"></ul>
 </div>`
     }
@@ -177,7 +177,7 @@ function startTaskRefreshTimer() {
 function updateTimerUI() {
     const el = document.getElementById('wm-refresh-timer');
     if(el) {
-        el.innerText = `تتحدث المهام خلال: ${secondsUntilRefresh}ث`;
+        el.innerText = `Tasks refresh in: ${secondsUntilRefresh}s`;
     }
 }
 
@@ -250,7 +250,7 @@ function submitWorkProject() {
     const allChecked = Array.from(checks).every(item => item.classList.contains('checked'));
     
     if(!allChecked) {
-        alert('الرجاء إنهاء جميع متطلبات المهمة أولاً! أنت في شركة حقيقية 🏢');
+        alert('Please complete all task requirements first! You are in a real company 🏢');
         return;
     }
 
@@ -309,7 +309,7 @@ function getWorkModeMainHTML() {
                 <!-- View 1: Task List -->
                 <div id="wm-task-list-view">
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
-                        <h2 style="font-size: 1.6rem; font-weight: 900; color: #fff;">المهام المتاحة الآن</h2>
+                        <h2 style="font-size: 1.6rem; font-weight: 900; color: #fff;">Available Tasks</h2>
                         <span id="wm-refresh-timer" style="color: var(--text-dim); font-size: 0.95rem; background: rgba(255,255,255,0.05); padding: 5px 12px; border-radius: 8px;"></span>
                     </div>
                     
@@ -335,14 +335,14 @@ function getWorkModeMainHTML() {
 
 function getTaskDetailsHTML(task) {
     return `
-        <button class="wm-btn-back" onclick="backToTaskList()">🔙 عودة للمهام</button>
+        <button class="wm-btn-back" onclick="backToTaskList()">🔙 Back to Tasks</button>
         <div class="wm-info-grid">
             <div class="wm-info-box">
-                <h4>🏢 الشركة</h4>
+                <h4>🏢 Company</h4>
                 <p>${task.company}</p>
             </div>
             <div class="wm-info-box">
-                <h4>👨‍💻 دورك</h4>
+                <h4>👨‍💻 Your Role</h4>
                 <p>${task.role}</p>
             </div>
         </div>
@@ -362,7 +362,7 @@ function getTaskDetailsHTML(task) {
             </div>
         </div>
 
-        <button class="wm-btn-main" onclick="startWorkExecution()">👉 ابدأ التنفيذ</button>
+        <button class="wm-btn-main" onclick="startWorkExecution()">👉 Start Execution</button>
     `;
 }
 
@@ -377,7 +377,7 @@ function getWorkspaceHTML(task) {
         </div>
 
         <div class="wm-checklist">
-            <h4>📌 Checklist المهمة</h4>
+            <h4>📌 Task Checklist</h4>
             ${task.checklist.map((item) => `
                 <div class="wm-check-item">
                     <div class="wm-check-box"></div>
@@ -386,18 +386,18 @@ function getWorkspaceHTML(task) {
             `).join('')}
         </div>
 
-        <button class="wm-btn-main" onclick="submitWorkProject()">👉 سلم المشروع</button>
+        <button class="wm-btn-main" onclick="submitWorkProject()">👉 Submit Project</button>
     `;
 }
 
 function getFeedbackHTML(task) {
     return `
         <div class="wm-feedback-icon">🔥</div>
-        <h2>تم تسليم المهمة بنجاح</h2>
+        <h2>Task Submitted Successfully</h2>
         <div class="wm-feedback-xp">+${task.xp} XP</div>
 
         <div class="wm-feedback-notes">
-            <h4 style="margin-bottom: 15px; color: var(--primary);">ملاحظات الـ Tech Lead:</h4>
+            <h4 style="margin-bottom: 15px; color: var(--primary);">Tech Lead Notes:</h4>
             ${task.feedback.map(fb => `
                 <div class="wm-feedback-note ${fb.type === 'good' ? 'wm-note-good' : 'wm-note-bad'}">
                     ${fb.type === 'good' ? '✔️' : '❌'} ${fb.text}
@@ -405,7 +405,7 @@ function getFeedbackHTML(task) {
             `).join('')}
         </div>
 
-        <button class="wm-btn-main" onclick="nextWorkTask()">👉 عرض مهام جديدة</button>
-        <button class="wm-btn-secondary" onclick="closeWorkMode()">الخروج من وضع الشركة</button>
+        <button class="wm-btn-main" onclick="nextWorkTask()">👉 View New Tasks</button>
+        <button class="wm-btn-secondary" onclick="closeWorkMode()">Exit Work Mode</button>
     `;
 }
