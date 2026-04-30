@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تحدي التنفيذ ⚡ | Build It</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="work-mode.css">
+</head>
+
+<body>
+
+    <!-- Welcome Landing Page -->
+    <div id="welcome-overlay" class="welcome-overlay">
+        <div class="landing-container">
+            <div class="landing-hero">
+                <h1 class="landing-title">ابدأ رحلتك التقنية 🚀</h1>
+                <p class="landing-desc">نفّذ مشاريع حقيقية وادخل سوق العمل</p>
+                <button id="btn-start-journey" class="btn-start-journey">ابدأ الآن</button>
+            </div>
+
+            <div class="landing-projects">
+                <h2 class="landing-section-title">أمثلة لمهام حقيقية ستنفذها</h2>
+                <div class="landing-cards">
+                    <div class="l-card">
+                        <div class="l-card-header">
+                            <span class="l-diff easy">🟢 سهل</span>
+                        </div>
+                        <h3>منصة أعمال حرة</h3>
+                        <p>بناء واجهة أساسية لعرض المستقلين ومشاريعهم.</p>
+                    </div>
+                    <div class="l-card">
+                        <div class="l-card-header">
+                            <span class="l-diff medium">🟡 متوسط</span>
+                        </div>
+                        <h3>تطبيق إدارة مهام</h3>
+                        <p>تطبيق لتنظيم المهام اليومية مع ميزات السحب والإفلات.</p>
+                    </div>
+                    <div class="l-card">
+                        <div class="l-card-header">
+                            <span class="l-diff hard">🔴 صعب</span>
+                        </div>
+                        <h3>بناء متجر إلكتروني</h3>
+                        <p>متجر متكامل بسلة مشتريات ودفع إلكتروني.</p>
+                    </div>
+                    <div class="l-card">
+                        <div class="l-card-header">
+                            <span class="l-diff hard">🔴 صعب</span>
+                        </div>
+                        <h3>لوحة تحليل بيانات</h3>
+                        <p>Dashboard تعرض إحصائيات حية ورسوم بيانية (Charts).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-glow"></div>
+
+    <!-- Top Stats Bar -->
+    <div class="app-stats" style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="level-display">Level <span id="ui-lvl">1</span> 🔥 | <span id="ui-xp">0</span> XP</div>
+        <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; justify-content: center;">
+            <button id="btn-work-mode" onclick="openWorkMode()" class="mode-toggle"
+                style="background: rgba(139, 92, 246, 0.2); color: #8b5cf6; border: 1px solid rgba(139, 92, 246, 0.5); font-weight: 700; padding: 5px 12px; border-radius: 8px; cursor: pointer; transition: 0.3s; font-size: 0.9rem;">⚔️
+                ادخل وضع الشركة</button>
+            <button id="btn-learning-mode" onclick="toggleLearningMode()" class="mode-toggle">🟢 Beginner Mode</button>
+            <button onclick="resetXP()"
+                style="background: rgba(244, 63, 94, 0.2); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.5); padding: 5px 12px; border-radius: 8px; cursor: pointer; font-weight: 700; font-family: 'Cairo'; transition: 0.3s; font-size: 0.9rem;"
+                onmouseover="this.style.background='rgba(244, 63, 94, 0.4)'"
+                onmouseout="this.style.background='rgba(244, 63, 94, 0.2)'">🔄 تصفير الـ XP</button>
+        </div>
+    </div>
+
+    <header class="app-header">
+        <div class="path-badge">Frontend Developer Path 🚀</div>
+        <h1 class="app-title">رحلة بناء المهارات</h1>
+
+        <!-- Overall Progress -->
+        <div class="overall-progress">
+            <div class="prog-labels">
+                <span id="proj-progress-text">أنجزت 0 / 12 مشاريع</span>
+                <span id="unlock-progress-text" style="color: var(--accent);">باقي لك 3 مشاريع لفتح المرحلة
+                    التالية</span>
+            </div>
+            <div class="prog-container" style="height: 12px;">
+                <div class="prog-bar" id="overall-prog-bar"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <!-- Daily Mission -->
+        <div class="daily-mission-card" id="daily-mission">
+            <div class="dm-header">
+                <h3>🎯 مهمة اليوم</h3>
+                <span class="dm-xp">+150 XP</span>
+            </div>
+            <p id="dm-text">ابنِ Navbar احترافي متجاوب</p>
+            <button class="btn-dm" id="btn-dm-start" onclick="startDailyMission()">ابدأ المهمة الآن</button>
+        </div>
+
+        <!-- Career Paths Section -->
+        <div id="career-paths-section" style="margin-bottom: 40px;">
+            <div class="phase-title">
+                <div class="dot" style="background: var(--primary); box-shadow: 0 0 15px var(--primary);"></div>
+                المسارات المهنية 🚀
+            </div>
+            <div class="paths-grid" id="paths-grid">
+                <!-- Paths will be injected here -->
+            </div>
+        </div>
+
+        <div class="content-layout">
+
+            <!-- Roadmap Area -->
+            <div class="roadmap-area" id="roadmap-container">
+                <!-- Phases will be injected here -->
+            </div>
+
+            <!-- Sidebar (Smart Guidance) -->
+            <aside class="sidebar">
+                <div class="leaderboard-card">
+                    <h3>🚀 خطوتك القادمة</h3>
+                    <p id="next-step-text"
+                        style="font-weight: 700; color: var(--text-main); margin-top: 15px; font-size: 1.1rem; line-height: 1.8;">
+                        جاري التحليل...</p>
+                </div>
+
+                <div class="leaderboard-card" style="margin-top: 30px;">
+                    <h3 style="color: var(--accent);">💡 نقترح لك الآن</h3>
+                    <p id="rec-text"
+                        style="font-weight: 700; color: var(--text-dim); margin-top: 15px; font-size: 1.1rem; line-height: 1.8;">
+                        جاري التحميل...</p>
+                    <button class="btn-dm" id="btn-rec-start" style="width: 100%; margin-top: 20px;">عرض
+                        التفاصيل</button>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- Side Drawer -->
+    <div class="drawer-overlay" id="drawer-overlay"></div>
+    <div class="side-drawer" id="side-drawer">
+        <div class="drawer-top">
+            <h2 id="drawer-title" style="font-size: 2.2rem; font-weight: 900; margin-bottom: 5px;">اسم المشروع</h2>
+            <p style="color: var(--text-dim); font-size: 1rem;">Work Environment: Enterprise Edition 🏢</p>
+        </div>
+
+        <div id="drawer-content">
+            <!-- Project phases, progress, and market info will be injected here -->
+        </div>
+
+        <button id="close-drawer"
+            style="background: transparent; border: 1px solid var(--border); color: var(--text-dim); width: 100%; padding: 15px; border-radius: 12px; margin-top: 30px; cursor: pointer; font-weight: 700;">إغلاق
+            والعودة للوحة المشاريع</button>
+    </div>
+
+    <!-- Gamification Popups & Confetti -->
+    <div class="popup-overlay" id="popup-overlay">
+        <div class="popup-card" id="popup-card">
+            <div class="popup-icon" id="popup-icon">🎉</div>
+            <h2 id="popup-title">+100 XP</h2>
+            <p id="popup-desc">وصلت Level 3</p>
+            <button class="btn-finish" style="margin-top: 25px;" onclick="closePopup()">رائع!</button>
+        </div>
+    </div>
+
+    <canvas id="confetti-canvas"></canvas>
+
+    <!-- Work Mode Overlay Container -->
+    <div id="work-mode-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+    <script src="work-mode.js"></script>
+</body>
+
+</html>
