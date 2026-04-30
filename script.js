@@ -1,184 +1,184 @@
 const PHASES_DATA = [
     {
         id: 'phase-1',
-        name: 'المرحلة 1: الأساسيات',
+        name: 'Phase 1: Fundamentals',
         colorClass: 'phase-1',
         unlockReq: { type: 'none' }, // Always open
         projects: [
             {
                 id: 'p3',
-                title: 'بناء موقع بناء معرض أعمال احترافي (Portfolio)',
-                desc: 'أنشئ موقع أو تطبيق يعرض أعمالك ومهاراتك بشكل احترافي ويجهّزك للتقديم على الوظائف أو الفريلانس.',
-                diff: 'سهل',
+                title: 'Build a Professional Portfolio Website',
+                desc: 'Create a website or app that showcases your work and skills professionally, preparing you to apply for jobs or freelance projects.',
+                diff: 'Easy',
                 xp: 100,
-                why: 'لأن الـ Portfolio هو أهم شيء يحدد قبولك في الوظائف أو المشاريع، وبدونه مهاراتك ما تنعرض بشكل احترافي.',
-                benefits: ['بناء موقع يعكس هويتك كمطور أو مصمم',
-                    'تجهيز نفسك للتقديم على وظائف أو عملاء',
-                    'تطبيق تصميم UI/UX احترافي ومتجاوب'],
+                why: 'Because your Portfolio is the most important thing that determines your acceptance in jobs or projects — without it, your skills won\'t be presented professionally.',
+                benefits: ['Build a site that reflects your identity as a developer or designer',
+                    'Prepare yourself to apply for jobs or clients',
+                    'Apply professional responsive UI/UX design'],
                 phases: [
                     {
-                        name: 'الهيكلة والتصميم',
+                        name: 'Structure & Design',
                         tasks: [
-                            'تحديد أقسام الموقع (عنّي، المهارات، المشاريع، تواصل)',
-                            'تصميم Layout واضح وسهل التصفح (Desktop + Mobile)',
-                            'إضافة Navbar احترافي مع تنقل سلس بين الأقسام'
+                            'Define website sections (About Me, Skills, Projects, Contact)',
+                            'Design a clear and easy-to-navigate layout (Desktop + Mobile)',
+                            'Add a professional Navbar with smooth section navigation'
                         ]
                     },
                     {
-                        name: 'عرض المشاريع',
+                        name: 'Showcasing Projects',
                         tasks: [
-                            'إنشاء قسم Projects يعرض أعمالك بشكل كروت (Cards)',
-                            'إضافة تفاصيل لكل مشروع (وصف + التقنيات + رابط)',
-                            'تحسين شكل العرض باستخدام Hover Effects أو Animations'
+                            'Create a Projects section displaying your work as cards',
+                            'Add details for each project (description + technologies + link)',
+                            'Enhance display with Hover Effects or Animations'
                         ]
                     },
                     {
-                        name: 'التفاعل والتحسين',
+                        name: 'Interaction & Improvement',
                         tasks: [
-                            'إضافة نموذج تواصل (Contact Form)',
-                            'جعل الموقع Responsive بالكامل لجميع الأجهزة',
-                            'تحسين الأداء وتجربة المستخدم (سرعة + وضوح)'
+                            'Add a Contact Form',
+                            'Make the site fully Responsive across all devices',
+                            'Improve performance and user experience (speed + clarity)'
                         ]
                     }
                 ]
             },
             {
                 id: 'p12',
-                title: ' متجر إلكتروني (E-commerce)',
-                desc: 'بناء الهيكل الأساسي لمتجر إلكتروني احترافي قابل للتطوير مستقبلاً.',
-                diff: 'سهل',
+                title: 'E-commerce Store',
+                desc: 'Build the core structure of a professional, scalable e-commerce store.',
+                diff: 'Easy',
                 xp: 100,
-                why: 'لأن المتاجر الإلكترونية من أكثر المشاريع المطلوبة في السوق، وهذا المشروع يعطيك أساس قوي لأي مشروع تجاري.',
+                why: 'Because e-commerce stores are among the most in-demand projects in the market, and this project gives you a strong foundation for any business project.',
                 benefits: [
-                    'فهم هيكلة المتاجر الإلكترونية',
-                    'بناء صفحات مترابطة بشكل احترافي',
-                    'تجهيز نفسك لمشاريع حقيقية أو فريلانس'
+                    'Understand the structure of e-commerce stores',
+                    'Build interconnected pages professionally',
+                    'Prepare yourself for real projects or freelance work'
                 ],
                 phases: [
                     {
-                        name: 'تخطيط وهيكلة الصفحات',
+                        name: 'Planning & Page Structure',
                         tasks: [
-                            'تحديد صفحات المتجر (الرئيسية – المنتجات – تفاصيل المنتج – السلة)',
-                            'رسم Layout بسيط لكل صفحة',
-                            'تحديد مسار المستخدم داخل المتجر (User Flow)'
+                            'Define store pages (Home – Products – Product Details – Cart)',
+                            'Sketch a simple layout for each page',
+                            'Define the user flow within the store'
                         ]
                     },
                     {
-                        name: 'بناء الواجهة الأساسية',
+                        name: 'Building the Core UI',
                         tasks: [
-                            'بناء Navbar يحتوي على (Logo – روابط – سلة)',
-                            'تصميم الصفحة الرئيسية (Hero + منتجات مميزة)',
-                            'إنشاء Footer يحتوي معلومات المتجر'
+                            'Build a Navbar containing (Logo – Links – Cart)',
+                            'Design the homepage (Hero + Featured Products)',
+                            'Create a Footer with store information'
                         ]
                     },
                     {
-                        name: 'عرض المنتجات',
+                        name: 'Displaying Products',
                         tasks: [
-                            'إنشاء كروت المنتجات (صورة – اسم – سعر)',
-                            'بناء صفحة تفاصيل المنتج',
-                            'إضافة زر "إضافة للسلة"'
+                            'Create product cards (image – name – price)',
+                            'Build a product details page',
+                            'Add an "Add to Cart" button'
                         ]
                     },
                     {
-                        name: 'السلة والتفاعل',
+                        name: 'Cart & Interaction',
                         tasks: [
-                            'بناء صفحة السلة',
-                            'إضافة المنتجات إلى السلة باستخدام LocalStorage',
-                            'تحديث الكمية وحذف المنتج من السلة'
+                            'Build the Cart page',
+                            'Add products to the cart using LocalStorage',
+                            'Update quantity and remove products from the cart'
                         ]
                     }
                 ]
             },
             {
                 id: 'p10',
-                title: 'Dashboard (لوحة تحكم)',
-                desc: 'بناء لوحة تحكم احترافية لعرض البيانات والإحصائيات بطريقة واضحة وتفاعلية.',
-                diff: 'متوسط',
+                title: 'Dashboard (Admin Panel)',
+                desc: 'Build a professional dashboard to display data and statistics clearly and interactively.',
+                diff: 'Medium',
                 xp: 100,
-                why: 'لأن لوحات التحكم هي أساس أغلب الأنظمة في الشركات، وتعلمك كيف تعرض البيانات بشكل مفيد وسهل.',
+                why: 'Because dashboards are the backbone of most company systems, and they teach you how to display data in a useful and easy way.',
                 benefits: [
-                    'عرض البيانات بطريقة منظمة وواضحة',
-                    'التعامل مع Charts و Tables',
-                    'بناء واجهات تستخدم في الأنظمة الحقيقية'
+                    'Display data in an organized and clear way',
+                    'Work with Charts and Tables',
+                    'Build interfaces used in real systems'
                 ],
                 phases: [
                     {
-                        name: 'تخطيط وهيكلة الداشبورد',
+                        name: 'Dashboard Planning & Structure',
                         tasks: [
-                            'تحديد أقسام الداشبورد (Sidebar – Topbar – المحتوى)',
-                            'تصميم Layout عام للصفحة',
-                            'تجهيز مكان عرض الإحصائيات'
+                            'Define dashboard sections (Sidebar – Topbar – Content)',
+                            'Design the overall page layout',
+                            'Prepare a place to display statistics'
                         ]
                     },
                     {
-                        name: 'بناء الواجهة الأساسية',
+                        name: 'Building the Core UI',
                         tasks: [
-                            'إنشاء Sidebar يحتوي على روابط التنقل',
-                            'بناء Topbar يحتوي على عنوان وإشعارات',
-                            'تصميم Cards لعرض الأرقام (إجمالي المستخدمين – المبيعات)'
+                            'Create a Sidebar with navigation links',
+                            'Build a Topbar with title and notifications',
+                            'Design Cards to display numbers (total users – sales)'
                         ]
                     },
                     {
-                        name: 'عرض البيانات',
+                        name: 'Displaying Data',
                         tasks: [
-                            'إضافة جدول بيانات (Table)',
-                            'عرض قائمة بيانات (مثل مستخدمين أو طلبات)',
-                            'تنسيق البيانات بشكل واضح'
+                            'Add a data table (Table)',
+                            'Display a list of data (e.g. users or orders)',
+                            'Format data clearly'
                         ]
                     },
                     {
-                        name: 'التفاعل والتحسين',
+                        name: 'Interaction & Improvement',
                         tasks: [
-                            'إضافة Charts (Line أو Bar)',
-                            'تحسين Responsive للداشبورد',
-                            'تحسين تجربة المستخدم (Spacing – ألوان – وضوح)'
+                            'Add Charts (Line or Bar)',
+                            'Improve Responsive layout for the dashboard',
+                            'Improve user experience (Spacing – colors – clarity)'
                         ]
                     }
                 ]
             },
             {
                 id: 'p10',
-                title: 'منظّم أهدافك بالذكاء الاصطناعي',
-                desc: 'نظام ذكي يحوّل أهداف المستخدم إلى خطة مهام واضحة وقابلة للتنفيذ.',
-                diff: 'متوسط',
+                title: 'AI Goal Organizer',
+                desc: 'A smart system that turns the user\'s goals into a clear, actionable task plan.',
+                diff: 'Medium',
                 xp: 100,
-                why: 'لأن الناس غالبًا تضيع بدون خطة واضحة، وهذا المشروع يعلمك كيف تبني منتج يحول الهدف إلى خطوات عملية باستخدام الذكاء.',
+                why: 'Because people often get lost without a clear plan, and this project teaches you how to build a product that turns a goal into practical steps using AI.',
                 benefits: [
-                    'تحويل الأهداف إلى مهام منظمة تلقائيًا',
-                    'التعامل مع مدخلات المستخدم وتحليلها',
-                    'بناء تجربة ذكية تساعد المستخدم فعليًا'
+                    'Automatically convert goals into organized tasks',
+                    'Handle and analyze user input',
+                    'Build a smart experience that genuinely helps the user'
                 ],
                 phases: [
                     {
-                        name: 'إدخال الهدف وتحليله',
+                        name: 'Goal Input & Analysis',
                         tasks: [
-                            'بناء حقل إدخال يكتب فيه المستخدم هدفه',
-                            'معالجة النص وتحليله (تقسيمه لفكرة قابلة للتنفيذ)',
-                            'تحديد نوع الهدف (تعلم – مشروع – بزنس)'
+                            'Build an input field where the user writes their goal',
+                            'Process and analyze the text (break it into an actionable idea)',
+                            'Identify the type of goal (learning – project – business)'
                         ]
                     },
                     {
-                        name: 'توليد الخطة',
+                        name: 'Generating the Plan',
                         tasks: [
-                            'تحويل الهدف إلى قائمة مهام (Tasks)',
-                            'تقسيم المهام إلى مراحل (أساسيات – تنفيذ – إتقان)',
-                            'عرض الخطة بشكل واضح للمستخدم'
+                            'Convert the goal into a task list (Tasks)',
+                            'Break tasks into phases (Basics – Execution – Mastery)',
+                            'Display the plan clearly to the user'
                         ]
                     },
                     {
-                        name: 'إدارة المهام',
+                        name: 'Task Management',
                         tasks: [
-                            'إضافة ToDo List للمستخدم',
-                            'تحديد المهام كمكتملة أو غير مكتملة',
-                            'حفظ التقدم باستخدام LocalStorage'
+                            'Add a ToDo List for the user',
+                            'Mark tasks as complete or incomplete',
+                            'Save progress using LocalStorage'
                         ]
                     },
                     {
-                        name: 'التجربة الذكية',
+                        name: 'Smart Experience',
                         tasks: [
-                            'اقتراح مهام إضافية بناءً على الهدف',
-                            'إظهار تقدم المستخدم (Progress)',
-                            'تحسين تجربة المستخدم (سهولة – وضوح – تفاعل)'
+                            'Suggest additional tasks based on the goal',
+                            'Show the user\'s progress (Progress)',
+                            'Improve user experience (ease – clarity – interaction)'
                         ]
                     }
                 ]
@@ -187,100 +187,100 @@ const PHASES_DATA = [
     },
     {
         id: 'phase-2',
-        name: 'المرحلة 2: مشاريع متوسطة',
+        name: 'Phase 2: Intermediate Projects',
         colorClass: 'phase-2',
         unlockReq: { type: 'none' },
         projects: [
             {
                 id: 'p2',
-                title: 'متتبع المصروفات',
-                desc: 'بناء نظام يساعد المستخدم على تسجيل مصروفاته وتحليلها بطريقة واضحة.',
-                diff: 'متوسط',
+                title: 'Expense Tracker',
+                desc: 'Build a system that helps users log and analyze their expenses clearly.',
+                diff: 'Medium',
                 xp: 100,
-                why: 'لأن إدارة المصروفات من أكثر المشاكل اليومية، وهذا المشروع يعلمك كيف تبني أداة مفيدة فعليًا للمستخدم.',
+                why: 'Because expense management is one of the most common daily problems, and this project teaches you how to build a genuinely useful tool for the user.',
                 benefits: [
-                    'التعامل مع مدخلات المستخدم وتخزينها',
-                    'بناء نظام CRUD (إضافة – حذف – تعديل)',
-                    'عرض البيانات بشكل بسيط وواضح'
+                    'Handle user input and store it',
+                    'Build a CRUD system (add – delete – edit)',
+                    'Display data in a simple and clear way'
                 ],
                 phases: [
                     {
-                        name: 'إدخال البيانات',
+                        name: 'Data Input',
                         tasks: [
-                            'بناء نموذج إدخال (المبلغ – الفئة – التاريخ)',
-                            'إضافة زر لحفظ المصروف',
-                            'التحقق من صحة البيانات قبل الحفظ'
+                            'Build an input form (amount – category – date)',
+                            'Add a button to save the expense',
+                            'Validate data before saving'
                         ]
                     },
                     {
-                        name: 'حفظ وإدارة البيانات',
+                        name: 'Saving & Managing Data',
                         tasks: [
-                            'تخزين البيانات باستخدام LocalStorage',
-                            'عرض قائمة المصروفات للمستخدم',
-                            'إضافة إمكانية حذف المصروف'
+                            'Store data using LocalStorage',
+                            'Display the list of expenses to the user',
+                            'Add the ability to delete an expense'
                         ]
                     },
                     {
-                        name: 'العرض والتحليل',
+                        name: 'Display & Analysis',
                         tasks: [
-                            'عرض إجمالي المصروفات',
-                            'تصنيف المصروفات حسب الفئة',
-                            'إظهار ملخص بسيط (كم صرفت اليوم أو هذا الشهر)'
+                            'Show total expenses',
+                            'Categorize expenses by type',
+                            'Show a simple summary (how much spent today or this month)'
                         ]
                     },
                     {
-                        name: 'تحسين التجربة',
+                        name: 'Improving the Experience',
                         tasks: [
-                            'تحسين تصميم الواجهة (UI)',
-                            'جعل التطبيق Responsive',
-                            'تحسين تجربة المستخدم (سهولة الاستخدام)'
+                            'Improve the UI design',
+                            'Make the app Responsive',
+                            'Improve user experience (ease of use)'
                         ]
                     }
                 ]
             },
             {
                 id: 'p6',
-                title: 'تطبيق حجز مواعيد',
-                desc: 'نظام يسمح للمستخدم بحجز المواعيد وإدارتها بطريقة سهلة ومنظمة.',
-                diff: 'متوسط',
+                title: 'Appointment Booking App',
+                desc: 'A system that allows users to book and manage appointments easily and in an organized way.',
+                diff: 'Medium',
                 xp: 100,
-                why: 'لأن أنظمة الحجز تُستخدم في العيادات والصالونات والشركات، وهذا المشروع يعطيك خبرة في بناء نظام يخدم عملاء حقيقيين.',
+                why: 'Because booking systems are used in clinics, salons, and companies — this project gives you experience building a system that serves real clients.',
                 benefits: [
-                    'إدارة الوقت والمواعيد بشكل منظم',
-                    'التعامل مع مدخلات المستخدم والتواريخ',
-                    'بناء نظام عملي يستخدم في الواقع'
+                    'Manage time and appointments in an organized way',
+                    'Handle user input and dates',
+                    'Build a practical system used in real life'
                 ],
                 phases: [
                     {
-                        name: 'إدخال البيانات',
+                        name: 'Data Input',
                         tasks: [
-                            'بناء نموذج إدخال (الاسم – التاريخ – الوقت)',
-                            'إضافة زر لحجز الموعد',
-                            'التحقق من صحة البيانات قبل الحفظ'
+                            'Build an input form (name – date – time)',
+                            'Add a button to book the appointment',
+                            'Validate data before saving'
                         ]
                     },
                     {
-                        name: 'إدارة المواعيد',
+                        name: 'Managing Appointments',
                         tasks: [
-                            'عرض قائمة المواعيد المحجوزة',
-                            'تخزين البيانات باستخدام LocalStorage',
-                            'إضافة إمكانية حذف الموعد'
+                            'Display the list of booked appointments',
+                            'Store data using LocalStorage',
+                            'Add the ability to cancel an appointment'
                         ]
                     },
                     {
-                        name: 'تنظيم الوقت',
+                        name: 'Time Organization',
                         tasks: [
-                            'منع تكرار نفس الموعد (Validation)',
-                            'ترتيب المواعيد حسب التاريخ',
-                            'عرض المواعيد القادمة فقط'
+                            'Prevent duplicate appointments (Validation)',
+                            'Sort appointments by date',
+                            'Show only upcoming appointments'
                         ]
                     },
                     {
-                        name: 'تحسين التجربة',
+                        name: 'Improving the Experience',
                         tasks: [
-                            'تحسين تصميم الواجهة (UI)',
-                            'جعل التطبيق Responsive',
-                            'تحسين تجربة المستخدم (سهولة الحجز)'
+                            'Improve the UI design',
+                            'Make the app Responsive',
+                            'Improve user experience (ease of booking)'
                         ]
                     }
                 ]
@@ -290,53 +290,53 @@ const PHASES_DATA = [
     },
     {
         id: 'phase-3',
-        name: 'المرحلة 3: مشاريع متقدمة',
+        name: 'Phase 3: Advanced Projects',
         colorClass: 'phase-3',
         unlockReq: { type: 'none' },
         projects: [
             {
                 id: 'p4',
-                title: 'تطبيق دردشة فورية',
-                desc: 'تطبيق يتيح للمستخدمين إرسال واستقبال الرسائل بشكل مباشر (لحظي) مثل واتساب.',
-                diff: 'صعب',
+                title: 'Real-Time Chat App',
+                desc: 'An app that lets users send and receive messages instantly (in real time), like WhatsApp.',
+                diff: 'Hard',
                 xp: 200,
-                why: 'لأن أنظمة الدردشة تستخدم في أغلب التطبيقات الحديثة، وهذا المشروع يعلمك كيف تتعامل مع التحديث المباشر للبيانات بدون إعادة تحميل الصفحة.',
+                why: 'Because chat systems are used in most modern applications, and this project teaches you how to handle live data updates without reloading the page.',
                 benefits: [
-                    'فهم الاتصال اللحظي (Realtime)',
-                    'إدارة الرسائل بشكل مباشر داخل الواجهة',
-                    'بناء تجربة مستخدم مشابهة لتطبيقات التواصل'
+                    'Understand real-time communication (Realtime)',
+                    'Manage messages directly within the UI',
+                    'Build a user experience similar to social apps'
                 ],
                 phases: [
                     {
-                        name: 'بناء واجهة المحادثة',
+                        name: 'Building the Chat UI',
                         tasks: [
-                            'تصميم شاشة المحادثة (رسائل – حقل إدخال – زر إرسال)',
-                            'عرض الرسائل بشكل مرتب (يمين / يسار)',
-                            'إضافة Scroll تلقائي لآخر رسالة'
+                            'Design the chat screen (messages – input field – send button)',
+                            'Display messages in order (right / left)',
+                            'Add auto-scroll to the latest message'
                         ]
                     },
                     {
-                        name: 'إرسال واستقبال الرسائل',
+                        name: 'Sending & Receiving Messages',
                         tasks: [
-                            'ربط الواجهة مع WebSocket أو أي API',
-                            'إرسال الرسالة وعرضها مباشرة',
-                            'استقبال الرسائل من مستخدم آخر بدون تحديث الصفحة'
+                            'Connect the UI to WebSocket or any API',
+                            'Send a message and display it immediately',
+                            'Receive messages from another user without refreshing the page'
                         ]
                     },
                     {
-                        name: 'تنظيم المحادثة',
+                        name: 'Organizing the Conversation',
                         tasks: [
-                            'إضافة اسم المستخدم لكل رسالة',
-                            'عرض وقت إرسال الرسالة',
-                            'تنظيم الرسائل داخل Bubble UI'
+                            'Add the username to each message',
+                            'Show the message send time',
+                            'Organize messages inside a Bubble UI'
                         ]
                     },
                     {
-                        name: 'تحسين التجربة',
+                        name: 'Improving the Experience',
                         tasks: [
-                            'تحسين تصميم الواجهة (UI)',
-                            'جعل التطبيق Responsive للجوال',
-                            'تحسين تجربة المستخدم (سهولة وسرعة)'
+                            'Improve the UI design',
+                            'Make the app Responsive for mobile',
+                            'Improve user experience (ease and speed)'
                         ]
                     }
                 ]
@@ -346,53 +346,53 @@ const PHASES_DATA = [
     },
     {
         id: 'phase-4',
-        name: 'المرحلة 4: جاهز لسوق العمل',
+        name: 'Phase 4: Job-Ready',
         colorClass: 'phase-4',
         unlockReq: { type: 'none' },
         projects: [
             {
                 id: 'p20',
-                title: 'تطبيق توصيل (Delivery App)',
-                desc: 'بناء تطبيق توصيل يتيح للمستخدم طلب المنتجات وتتبع الطلب بشكل مباشر.',
-                diff: 'متقدم',
+                title: 'Delivery App',
+                desc: 'Build a delivery app that lets users order products and track their order in real time.',
+                diff: 'Advanced',
                 xp: 150,
-                why: 'لأن تطبيقات التوصيل من أكثر المنتجات استخدامًا في السوق، وهذا المشروع يثبت قدرتك على بناء نظام متكامل يخدم عملاء حقيقيين.',
+                why: 'Because delivery apps are among the most used products in the market, and this project proves your ability to build a complete system that serves real clients.',
                 benefits: [
-                    'بناء نظام متكامل (عميل + طلب + حالة)',
-                    'إدارة الطلبات وتتبعها',
-                    'محاكاة تطبيقات حقيقية في السوق'
+                    'Build a complete system (customer + order + status)',
+                    'Manage and track orders',
+                    'Simulate real market applications'
                 ],
                 phases: [
                     {
-                        name: 'واجهة المستخدم (Customer App)',
+                        name: 'Customer App UI',
                         tasks: [
-                            'بناء الصفحة الرئيسية (مطاعم أو متاجر)',
-                            'عرض قائمة المنتجات داخل المتجر',
-                            'بناء صفحة تفاصيل المنتج مع زر الطلب'
+                            'Build the homepage (restaurants or stores)',
+                            'Display a list of products inside the store',
+                            'Build a product details page with an order button'
                         ]
                     },
                     {
-                        name: 'إدارة الطلب',
+                        name: 'Order Management',
                         tasks: [
-                            'إضافة المنتجات إلى السلة',
-                            'بناء صفحة السلة (Cart)',
-                            'تأكيد الطلب (Checkout Simulation)'
+                            'Add products to the cart',
+                            'Build the Cart page',
+                            'Confirm the order (Checkout Simulation)'
                         ]
                     },
                     {
-                        name: 'تتبع الطلب',
+                        name: 'Order Tracking',
                         tasks: [
-                            'إظهار حالة الطلب (قيد التحضير – في الطريق – تم التوصيل)',
-                            'تحديث الحالة بشكل ديناميكي',
-                            'عرض تفاصيل الطلب للمستخدم'
+                            'Show order status (Preparing – On the way – Delivered)',
+                            'Update status dynamically',
+                            'Display order details to the user'
                         ]
                     },
                     {
-                        name: 'لوحة الإدارة (Admin)',
+                        name: 'Admin Panel',
                         tasks: [
-                            'عرض جميع الطلبات في لوحة تحكم',
-                            'تغيير حالة الطلب من لوحة الإدارة',
-                            'إضافة / حذف منتجات من المتجر'
+                            'Display all orders in a dashboard',
+                            'Change order status from the admin panel',
+                            'Add / Delete products from the store'
                         ]
                     }
                 ]
@@ -413,25 +413,25 @@ let state = {
 
 // Daily Mission logic
 const DAILY_MISSIONS = [
-    { id: 'dm1', title: 'بناء صفحة تسجيل/دخول كاملة مع Validation وربطها بـ API حقيقي' },
+    { id: 'dm1', title: 'Build a complete login/register page with Validation and connect it to a real API' },
 
-    { id: 'dm2', title: 'تطوير صفحة منتجات لمتجر إلكتروني مع فلترة (سعر / تصنيف) + Pagination' },
+    { id: 'dm2', title: 'Develop a product page for an e-commerce store with filtering (price / category) + Pagination' },
 
-    { id: 'dm3', title: 'بناء Dashboard تعرض إحصائيات (مبيعات / مستخدمين) باستخدام Charts وربط API' },
+    { id: 'dm3', title: 'Build a Dashboard displaying statistics (sales / users) using Charts and API integration' },
 
-    { id: 'dm4', title: 'تنفيذ نظام سلة مشتريات كامل (إضافة / حذف / تحديث الكمية) مع LocalStorage أو Backend' },
+    { id: 'dm4', title: 'Implement a full shopping cart system (add / delete / update quantity) with LocalStorage or Backend' },
 
-    { id: 'dm5', title: 'بناء صفحة Profile للمستخدم مع تعديل البيانات ورفع صورة شخصية' },
+    { id: 'dm5', title: 'Build a user Profile page with data editing and profile picture upload' },
 
-    { id: 'dm6', title: 'تطوير صفحة تفاصيل منتج (Product Page) مع صور + تقييمات + منتجات مشابهة' },
+    { id: 'dm6', title: 'Develop a Product Details page with images + reviews + related products' },
 
-    { id: 'dm7', title: 'بناء نظام إشعارات (Notifications UI) يظهر تحديثات فورية للمستخدم' },
+    { id: 'dm7', title: 'Build a Notifications UI system that shows real-time updates to the user' },
 
-    { id: 'dm8', title: 'تحليل Dataset حقيقية (CSV) وعرض النتائج في Dashboard تفاعلي' },
+    { id: 'dm8', title: 'Analyze a real Dataset (CSV) and display results in an interactive Dashboard' },
 
-    { id: 'dm9', title: 'بناء Landing Page لمنتج SaaS بهدف التحويل (Conversion) مع CTA واضح' },
+    { id: 'dm9', title: 'Build a Landing Page for a SaaS product focused on Conversion with a clear CTA' },
 
-    { id: 'dm10', title: 'تنفيذ نظام صلاحيات (Roles) يفرق بين Admin و User في الواجهة' }
+    { id: 'dm10', title: 'Implement a Roles system that differentiates between Admin and User in the UI' }
 ];
 
 let currentDailyMission = null;
@@ -446,7 +446,7 @@ function init() {
     pickRandomMission();
     startTimer();
 
-    // 🔥 تغيير المهمة كل دقيقة
+    // 🔥 Change mission every minute
     changeInterval = setInterval(() => {
         pickRandomMission();
         startTimer();
@@ -457,7 +457,7 @@ function init() {
     renderRoadmap();
 }
 
-// اختيار مهمة عشوائية
+// Pick a random mission
 function pickRandomMission() {
     const randomMission = DAILY_MISSIONS[Math.floor(Math.random() * DAILY_MISSIONS.length)];
 
@@ -470,7 +470,7 @@ function pickRandomMission() {
     localStorage.setItem('skill_journey_state', JSON.stringify(state));
 }
 
-// تايمر العد التنازلي
+// Countdown timer
 function startTimer() {
     clearInterval(timerInterval);
     timeLeft = 60;
@@ -487,15 +487,15 @@ function startTimer() {
     }, 1000);
 }
 
-// تحديث التايمر في الواجهة
+// Update timer in the UI
 function updateTimerUI() {
     const el = document.getElementById('dm-timer');
     if (el) {
-        el.innerText = `تتغير خلال ${timeLeft} ث`;
+        el.innerText = `Changes in ${timeLeft}s`;
     }
 }
 
-// 👇 دالة اختيار مهمة عشوائية
+// 👇 Pick a random mission
 function pickRandomMission() {
     const randomMission = DAILY_MISSIONS[Math.floor(Math.random() * DAILY_MISSIONS.length)];
 
@@ -522,11 +522,11 @@ function updateUI() {
     const totalProjects = PHASES_DATA.reduce((acc, ph) => acc + ph.projects.length, 0);
     const completedCount = state.completedProjects.length;
 
-    document.getElementById('proj-progress-text').innerText = `أنجزت ${completedCount} / ${totalProjects} مشاريع`;
+    document.getElementById('proj-progress-text').innerText = `Completed ${completedCount} / ${totalProjects} projects`;
     document.getElementById('overall-prog-bar').style.width = `${(completedCount / totalProjects) * 100}%`;
 
     // Next unlock hint (removed as all phases are unlocked)
-    document.getElementById('unlock-progress-text').innerText = 'جميع المراحل مفتوحة الآن 🚀';
+    document.getElementById('unlock-progress-text').innerText = 'All phases are now unlocked 🚀';
 
     // Daily mission UI
     const dmXp = getDailyMissionXp();
@@ -534,11 +534,11 @@ function updateUI() {
     document.querySelector('.dm-xp').innerText = `+${dmXp} XP`;
     const dmBtn = document.getElementById('btn-dm-start');
     if (state.dailyMissionDone) {
-        dmBtn.innerText = 'تم إنجاز المهمة ✅';
+        dmBtn.innerText = 'Mission Completed ✅';
         dmBtn.style.background = 'var(--accent)';
         dmBtn.disabled = true;
     } else {
-        dmBtn.innerText = 'ابدأ المهمة الآن';
+        dmBtn.innerText = 'Start Mission Now';
         dmBtn.style.background = '#f59e0b';
         dmBtn.disabled = false;
     }
@@ -559,10 +559,10 @@ function updateSmartGuidance() {
     // Next Step logic
     const nextStepEl = document.getElementById('next-step-text');
     if (nextStepEl) {
-        let stepText = 'أنت مبدع! لقد فتحت كل مسارات العمل. استمر في تنفيذ المشاريع المتاحة.';
-        if (state.completedProjects.length < 3) stepText = `باقي لك ${3 - state.completedProjects.length} مشروع فقط لفتح المرحلة الثانية (مشاريع بسيطة). استمر!`;
-        else if (state.xp < 800) stepText = `اجمع ${800 - state.xp} XP إضافية عبر تنفيذ مهام اليوم لتفتح مشاريع المرحلة الثالثة.`;
-        else if (state.level < 5) stepText = `ارفع مستواك إلى Level 5 لتفتح مشاريع المرحلة المتقدمة (جاهز لسوق العمل).`;
+        let stepText = 'You\'re amazing! You\'ve unlocked all work tracks. Keep executing the available projects.';
+        if (state.completedProjects.length < 3) stepText = `Only ${3 - state.completedProjects.length} more project(s) to unlock Phase 2 (Beginner Projects). Keep going!`;
+        else if (state.xp < 800) stepText = `Earn ${800 - state.xp} more XP through daily tasks to unlock Phase 3 projects.`;
+        else if (state.level < 5) stepText = `Reach Level 5 to unlock advanced projects (Job-Ready phase).`;
         nextStepEl.innerText = stepText;
     }
 
@@ -583,7 +583,7 @@ function updateSmartGuidance() {
         }
 
         if (recommendedProject) {
-            recEl.innerText = `ننصحك بالبدء بـ (${recommendedProject.title}) لأنه يتناسب تماماً مع مستواك وخبرتك الحالية المكتسبة.`;
+            recEl.innerText = `We recommend starting with (${recommendedProject.title}) as it perfectly matches your current level and experience.`;
             recBtn.style.display = 'block';
             recBtn.onclick = () => {
                 // Focus on the recommendation
@@ -591,7 +591,7 @@ function updateSmartGuidance() {
                 openProject(recommendedProject, false);
             };
         } else {
-            recEl.innerText = 'لقد أنهيت جميع المشاريع المتاحة في المسار الحالي! أنت أسطورة 🔥.';
+            recEl.innerText = 'You\'ve completed all available projects in the current track! You\'re a legend 🔥.';
             recBtn.style.display = 'none';
         }
     }
@@ -633,10 +633,10 @@ function renderRoadmap() {
 
         phase.projects.forEach(p => {
 
-            // ✅ نحسب عدد المهام داخل المشروع
+            // ✅ Count the number of tasks inside the project
             const totalTasks = p.phases.reduce((acc, ph) => acc + ph.tasks.length, 0);
 
-            // ✅ هل المشروع مكتمل؟
+            // ✅ Is the project complete?
             const isDone = isProjectCompleted(p.id, totalTasks);
 
             const card = document.createElement('div');
@@ -659,14 +659,14 @@ function renderRoadmap() {
                 
                 <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 12px; margin-bottom: 15px; border: 1px solid rgba(255,255,255,0.05);">
                     <div style="font-weight: 800; color: var(--accent); margin-bottom: 5px; font-size: 0.95rem;">
-                        🧠 ليش تسوي المشروع؟
+                        🧠 Why Build This Project?
                     </div>
                     <p style="font-size: 0.9rem; color: var(--text-dim); margin-bottom: 12px;">
                         ${p.why}
                     </p>
                     
                     <div style="font-weight: 800; color: var(--primary); margin-bottom: 5px; font-size: 0.95rem;">
-                        🎯 وش راح تستفيد؟
+                        🎯 What Will You Gain?
                     </div>
                     <ul style="list-style-type: disc; margin-right: 20px; font-size: 0.85rem; color: var(--text-dim);">
                         ${p.benefits.map(b => `<li style="margin-bottom: 3px;">${b}</li>`).join('')}
@@ -678,7 +678,7 @@ function renderRoadmap() {
                     
                     <span class="xp-val">
                         ${isDone
-                    ? 'مكتمل ✅'
+                    ? 'Completed ✅'
                     : `${(state.completedTasks?.[p.id]?.length || 0)} / ${totalTasks}`
                 }
                     </span>
@@ -696,10 +696,10 @@ function openProject(project, isDone, phase) {
     document.getElementById('drawer-title').innerText = project.title;
 
     let modeText = '';
-    if (phase.id === 'phase-1') modeText = '💡 Guided Mode: ابدأ معي خطوة بخطوة';
-    else if (phase.id === 'phase-2') modeText = '⚔️ Challenge Mode: عندك مشروع… نفّذه بطريقتك';
-    else if (phase.id === 'phase-3') modeText = '🏢 Work Environment: المهام (To Do / Done)';
-    else if (phase.id === 'phase-4') modeText = '💼 Client Request: رسالة من العميل';
+    if (phase.id === 'phase-1') modeText = '💡 Guided Mode: Start with me step by step';
+    else if (phase.id === 'phase-2') modeText = '⚔️ Challenge Mode: You have a project… execute it your way';
+    else if (phase.id === 'phase-3') modeText = '🏢 Work Environment: Tasks (To Do / Done)';
+    else if (phase.id === 'phase-4') modeText = '💼 Client Request: A message from the client';
 
     document.querySelector('#side-drawer .drawer-top p').innerText = modeText;
 
@@ -714,8 +714,8 @@ function openProject(project, isDone, phase) {
     if (phase.id === 'phase-4') {
         const clientMsg = document.createElement('div');
         clientMsg.style.cssText = 'background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; margin-bottom: 30px; border-left: 4px solid var(--accent);';
-        clientMsg.innerHTML = `<h4 style="color: var(--accent); margin-bottom: 10px;">📩 رسالة جديدة من العميل:</h4>
-        <p style="color: var(--text-dim); font-size: 1.1rem; line-height: 1.8;">"أهلاً، نحتاج منك بناء وتطوير (${project.title}). المتطلبات واضحة لكن التنفيذ يعتمد على خبرتك. نتوقع استلام عمل متكامل. تفضل التفاصيل بالأسفل."</p>`;
+        clientMsg.innerHTML = `<h4 style="color: var(--accent); margin-bottom: 10px;">📩 New message from the client:</h4>
+        <p style="color: var(--text-dim); font-size: 1.1rem; line-height: 1.8;">"Hello, we need you to build and develop (${project.title}). The requirements are clear but execution depends on your expertise. We expect to receive a complete, polished deliverable. Details are below."</p>`;
         content.appendChild(clientMsg);
     }
 
@@ -736,8 +736,8 @@ function openProject(project, isDone, phase) {
     if (phase.id === 'phase-3') {
         const todoSection = document.createElement('div');
         const doneSection = document.createElement('div');
-        todoSection.innerHTML = `<div class="phase-header" style="color: #f59e0b;">📋 To Do (المهام المطلوبة)</div>`;
-        doneSection.innerHTML = `<div class="phase-header" style="color: var(--accent);">✅ Done (المهام المنجزة)</div>`;
+        todoSection.innerHTML = `<div class="phase-header" style="color: #f59e0b;">📋 To Do (Required Tasks)</div>`;
+        doneSection.innerHTML = `<div class="phase-header" style="color: var(--accent);">✅ Done (Completed Tasks)</div>`;
         doneSection.style.marginTop = '40px';
 
         allTasks.forEach(item => {
@@ -787,15 +787,15 @@ function openProject(project, isDone, phase) {
         const btn = document.createElement('button');
         btn.className = 'btn-finish';
         btn.id = 'btn-finish-proj';
-        btn.innerText = '🔥 أنت خلصت المرحلة';
+        btn.innerText = '🔥 You\'ve finished the phase';
         btn.disabled = true;
         btn.onclick = () => finishProject(project);
         content.appendChild(btn);
     } else {
-        const tweetText = encodeURIComponent(`أنجزت مشروع "${project.title}" 🔥 وأطوّر نفسي يوميًا 🚀 #هاش_بلس`);
+        const tweetText = encodeURIComponent(`I completed the project "${project.title}" 🔥 and I improve myself daily 🚀 #hash_plus`);
         const twitterBtn = document.createElement('button');
         twitterBtn.className = 'btn-twitter';
-        twitterBtn.innerHTML = `🚀 شارك إنجازك`;
+        twitterBtn.innerHTML = `🚀 Share Your Achievement`;
         twitterBtn.onclick = () => window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
         content.appendChild(twitterBtn);
     }
@@ -824,14 +824,14 @@ function createTaskElement(taskText, taskId, taskDone, projId, phaseId, isProjDo
     if (!taskDone && !isProjDone) {
         taskHTML += `
             <div class="task-interactive-area" style="margin-top: 15px; margin-right: 48px;">
-                <textarea id="input-${taskId}" placeholder="اكتب كيف راح تنفذ المهمة..." style="width: 100%; padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.3); border: 1px solid var(--border); color: white; resize: vertical; min-height: 80px; font-family: Cairo; font-size: 0.95rem;">${savedNote}</textarea>
-                <button onclick="saveTaskInteractive('${taskId}', '${projId}', '${phaseId}')" class="btn-dm" style="margin-top: 10px; padding: 8px 20px;">حفظ</button>
+                <textarea id="input-${taskId}" placeholder="Write how you will implement this task..." style="width: 100%; padding: 12px; border-radius: 8px; background: rgba(0,0,0,0.3); border: 1px solid var(--border); color: white; resize: vertical; min-height: 80px; font-family: Cairo; font-size: 0.95rem;">${savedNote}</textarea>
+                <button onclick="saveTaskInteractive('${taskId}', '${projId}', '${phaseId}')" class="btn-dm" style="margin-top: 10px; padding: 8px 20px;">Save</button>
             </div>
         `;
     } else if (savedNote) {
         taskHTML += `
             <div style="margin-top: 10px; margin-right: 48px; background: rgba(0,0,0,0.2); padding: 10px; border-radius: 8px; font-size: 0.9rem; color: var(--text-dim); cursor: pointer;" onclick="toggleTaskOnly('${taskId}', '${projId}', '${phaseId}')">
-                📝 ملاحظتك: ${savedNote}
+                📝 Your note: ${savedNote}
             </div>
         `;
     }
@@ -881,7 +881,7 @@ function saveTaskInteractive(taskId, projId, phaseId) {
 
     if (note.trim().length > 0) {
         const msg = document.createElement('div');
-        msg.innerText = '👍 ممتاز، تم الحفظ بنجاح';
+        msg.innerText = '👍 Great, saved successfully';
         msg.style.cssText = 'position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%); background: var(--accent); color: white; padding: 12px 25px; border-radius: 20px; z-index: 9999; font-weight: 800; animation: floatUp 2.5s ease-out forwards;';
         document.body.appendChild(msg);
         setTimeout(() => msg.remove(), 2500);
@@ -909,7 +909,7 @@ function updateDrawerProgress(projId) {
 function checkXpLevelUp() {
     if (state.xp > 0 && state.xp % 300 === 0) {
         const nextLevel = Math.floor(state.xp / 300) + 1;
-        triggerMomentOfSuccess(300, nextLevel, '🔥 مبروك! أنهيت المرحلة!');
+        triggerMomentOfSuccess(300, nextLevel, '🔥 Congratulations! You completed the phase!');
     }
 }
 
@@ -938,7 +938,7 @@ function startDailyMission() {
 
     updateUI();
     renderRoadmap();
-    triggerMomentOfSuccess(dmXp, state.level > oldLevel ? state.level : null, 'مهمة اليوم أُنجزت!');
+    triggerMomentOfSuccess(dmXp, state.level > oldLevel ? state.level : null, 'Daily Mission Completed!');
 }
 
 function closeDrawer() {
@@ -957,10 +957,10 @@ function triggerMomentOfSuccess(gainedXp, newLevel = null, customTitle = null) {
     titleEl.innerText = customTitle ? customTitle : `+${gainedXp} XP`;
 
     if (newLevel) {
-        descEl.innerText = `وصلت Level ${newLevel}! 🔥`;
+        descEl.innerText = `You reached Level ${newLevel}! 🔥`;
         fireConfetti();
     } else {
-        descEl.innerText = 'أحسنت الاستمرار! 🚀';
+        descEl.innerText = 'Great job keeping going! 🚀';
         fireConfetti(true); // small confetti
     }
 
@@ -999,7 +999,7 @@ function fireConfetti(small = false) {
 
 
 function resetXP() {
-    if (confirm("هل أنت متأكد أنك تريد تصفير النقاط والـ XP بالكامل؟")) {
+    if (confirm("Are you sure you want to reset all points and XP completely?")) {
         state.xp = 0;
         calcLevel();
         updateUI();
@@ -1082,8 +1082,8 @@ let selectedPathFilter = localStorage.getItem('selected_path') || null;
 
 function getProjectPath(project) {
     const title = project.title || '';
-    if (title.includes('معرض') || title.includes('E-commerce') || title.includes('دردشة')) return 'frontend';
-    if (title.includes('Dashboard') || title.includes('مصروفات') || title.includes('بيانات')) return 'data';
+    if (title.includes('Portfolio') || title.includes('E-commerce') || title.includes('Chat')) return 'frontend';
+    if (title.includes('Dashboard') || title.includes('Expense') || title.includes('Data')) return 'data';
     return 'backend';
 }
 
@@ -1140,7 +1140,7 @@ function renderPaths() {
             <div class="path-name">${path.name}</div>
             <div class="path-stats">
                 <span class="path-level">Level ${prog.level} 🔥</span>
-                <span>${prog.completedInPath} / ${prog.pathProjects} مشاريع</span>
+                <span>${prog.completedInPath} / ${prog.pathProjects} projects</span>
             </div>
             <div class="prog-container" style="height: 6px; background: rgba(255,255,255,0.1);">
                 <div class="prog-bar" style="width: ${prog.progress}%; background: ${path.color};"></div>
@@ -1169,7 +1169,7 @@ function updateViewFlow() {
         backBtn.style.background = 'rgba(255,255,255,0.1)';
         backBtn.style.boxShadow = 'none';
         backBtn.style.border = '1px solid var(--border)';
-        backBtn.innerHTML = '🔙 رجوع للمسارات';
+        backBtn.innerHTML = '🔙 Back to Paths';
         backBtn.onclick = () => {
             selectedPathFilter = null;
             localStorage.removeItem('selected_path');
@@ -1241,13 +1241,13 @@ openProject = function (project, isDone, phase) {
     const content = document.getElementById('drawer-content');
     if (!content) return;
 
-    // Feature 2: "ابدأ معي" (Starter Template)
+    // Feature 2: "Start with me" (Starter Template)
     const topSection = document.querySelector('.drawer-top');
     if (topSection && !document.getElementById('btn-starter-template')) {
         const starterBtn = document.createElement('button');
         starterBtn.id = 'btn-starter-template';
         starterBtn.className = 'btn-starter';
-        starterBtn.innerHTML = '🚀 ابدأ معي (Starter Template)';
+        starterBtn.innerHTML = '🚀 Start with me (Starter Template)';
         starterBtn.onclick = () => openStarterModal(project);
         topSection.appendChild(starterBtn);
     }
@@ -1256,7 +1256,7 @@ openProject = function (project, isDone, phase) {
     tasks.forEach((taskEl, index) => {
         const helpBtn = document.createElement('button');
         helpBtn.className = 'btn-help beginner-only';
-        helpBtn.innerHTML = '💡 ما عرفت؟ ساعدني';
+        helpBtn.innerHTML = '💡 Stuck? Help me';
         helpBtn.onclick = (e) => {
             e.stopPropagation();
             openHelpModal(project, index, taskEl.querySelector('.task-text').innerText);
@@ -1269,7 +1269,7 @@ openProject = function (project, isDone, phase) {
         // Feedback Button
         const btnFeed = document.createElement('button');
         btnFeed.className = 'btn-feedback';
-        btnFeed.innerHTML = '📊 قيّم شغلي';
+        btnFeed.innerHTML = '📊 Rate My Work';
         btnFeed.onclick = () => openFeedbackModal(project);
         content.appendChild(btnFeed);
 
@@ -1278,7 +1278,7 @@ openProject = function (project, isDone, phase) {
         btnPort.className = 'btn-finish';
         btnPort.style.background = 'linear-gradient(to right, #10b981, #059669)';
         btnPort.style.marginTop = '15px';
-        btnPort.innerHTML = '💼 حوّل إلى Portfolio / CV';
+        btnPort.innerHTML = '💼 Export to Portfolio / CV';
         btnPort.onclick = () => openPortfolioModal(project);
 
         content.appendChild(btnPort);
@@ -1299,7 +1299,7 @@ function openPortfolioModal(project) {
         path === 'backend' ? 'Node.js, Express, JavaScript, Database, API' :
             'Data Analysis, Chart.js, APIs, JSON';
 
-    const descText = `قمت ببناء تطبيق (${project.title}) الذي يتيح للمستخدمين ${project.desc} تم تطوير هذا المشروع للتركيز على تجربة المستخدم (UX) وبناء نظام قابل للتطوير يعكس متطلبات سوق العمل.`;
+    const descText = `I built a (${project.title}) application that allows users to ${project.desc} This project was developed with a focus on user experience (UX) and building a scalable system that meets job market requirements.`;
 
     const readmeText = `# ${project.title}\n\n## Description\n${project.desc}\n\n## Features\n${project.benefits.map(b => '- ' + b).join('\n')}\n\n## Tech Stack\n${tech}`;
 
@@ -1308,23 +1308,23 @@ function openPortfolioModal(project) {
     modal.innerHTML = `
         <div class="portfolio-content">
             <button class="close-portfolio" onclick="document.getElementById('portfolio-modal').classList.remove('active')">✖</button>
-            <h2 style="margin-bottom: 25px; color: var(--primary);">💼 تصدير إلى Portfolio</h2>
+            <h2 style="margin-bottom: 25px; color: var(--primary);">💼 Export to Portfolio</h2>
             
             <div class="cv-section">
-                <button class="btn-copy" onclick="copyText('desc-text')">نسخ</button>
-                <h4>📝 وصف احترافي (Description)</h4>
+                <button class="btn-copy" onclick="copyText('desc-text')">Copy</button>
+                <h4>📝 Professional Description</h4>
                 <div class="cv-text rtl-text" id="desc-text">${descText}</div>
             </div>
 
             <div class="cv-section">
-                <button class="btn-copy" onclick="copyText('readme-text')">نسخ</button>
+                <button class="btn-copy" onclick="copyText('readme-text')">Copy</button>
                 <h4>🐙 GitHub README</h4>
                 <div class="cv-text" id="readme-text">${readmeText}</div>
             </div>
 
             <div class="cv-section">
-                <button class="btn-copy" onclick="copyText('cv-text-val')">نسخ</button>
-                <h4>📄 نقطة للسيرة الذاتية (CV Bullet)</h4>
+                <button class="btn-copy" onclick="copyText('cv-text-val')">Copy</button>
+                <h4>📄 CV Bullet Point</h4>
                 <div class="cv-text" id="cv-text-val">${cvText}</div>
             </div>
         </div>
@@ -1336,7 +1336,7 @@ function openPortfolioModal(project) {
 window.copyText = function (id) {
     const text = document.getElementById(id).innerText;
     navigator.clipboard.writeText(text).then(() => {
-        alert('تم النسخ بنجاح! ✅');
+        alert('Copied successfully! ✅');
     });
 };
 
@@ -1364,22 +1364,22 @@ function openStarterModal(project) {
     if (!modal) return;
 
     const path = getProjectPath(project);
-    const htmlCode = `<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <title>${project.title}</title>\n  <link rel="stylesheet" href="style.css">\n</head>\n<body>\n  <header>\n    <h1>${project.title}</h1>\n  </header>\n  <main>\n    <!-- ابدأ العمل هنا -->\n  </main>\n  <script src="script.js"></script>\n</body>\n</html>`;
+    const htmlCode = `<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <title>${project.title}</title>\n  <link rel="stylesheet" href="style.css">\n</head>\n<body>\n  <header>\n    <h1>${project.title}</h1>\n  </header>\n  <main>\n    <!-- Start working here -->\n  </main>\n  <script src="script.js"></script>\n</body>\n</html>`;
 
     modal.innerHTML = `
         <div class="portfolio-content">
             <button class="close-portfolio" onclick="document.getElementById('portfolio-modal').classList.remove('active')">✖</button>
-            <h2 style="margin-bottom: 25px; color: #f59e0b;">🚀 ابدأ معي (Starter Template)</h2>
-            <p style="color: var(--text-dim); margin-bottom: 20px;">استخدم هذا الهيكل كبداية لمشروعك لتسريع العمل.</p>
+            <h2 style="margin-bottom: 25px; color: #f59e0b;">🚀 Start with me (Starter Template)</h2>
+            <p style="color: var(--text-dim); margin-bottom: 20px;">Use this structure as a starting point for your project to speed up development.</p>
             
             <div class="cv-section">
-                <button class="btn-copy" onclick="copyText('starter-code')">نسخ</button>
+                <button class="btn-copy" onclick="copyText('starter-code')">Copy</button>
                 <h4>📄 index.html</h4>
                 <div class="code-block" id="starter-code">${htmlCode.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</div>
             </div>
             
             <a href="https://codepen.io/pen/" target="_blank" class="btn-starter" style="text-decoration: none; display: inline-flex; width: 100%;">
-                ✍️ افتح محرر CodePen
+                ✍️ Open CodePen Editor
             </a>
         </div>
     `;
@@ -1393,28 +1393,28 @@ function openHelpModal(project, taskIndex, taskText) {
     modal.innerHTML = `
         <div class="portfolio-content">
             <button class="close-portfolio" onclick="document.getElementById('portfolio-modal').classList.remove('active')">✖</button>
-            <h2 style="margin-bottom: 25px; color: #3b82f6;">💡 مساعدة ذكية</h2>
+            <h2 style="margin-bottom: 25px; color: #3b82f6;">💡 Smart Help</h2>
             
             <div style="background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.3); padding: 15px; border-radius: 10px; margin-bottom: 20px;">
-                <h4 style="color: #60a5fa; margin-bottom: 5px;">الهدف من هذه المهمة:</h4>
+                <h4 style="color: #60a5fa; margin-bottom: 5px;">Goal of this task:</h4>
                 <p style="color: #fff; font-size: 1.1rem; font-weight: bold;">${taskText}</p>
-                <p style="color: var(--text-dim); font-size: 0.95rem; margin-top: 10px;">هذه المهمة تطلب منك تجهيز المكونات الأساسية. ابدأ بخطوات صغيرة ولا تحاول حلها دفعة واحدة.</p>
+                <p style="color: var(--text-dim); font-size: 0.95rem; margin-top: 10px;">This task asks you to prepare the core components. Start with small steps and don't try to solve it all at once.</p>
             </div>
 
             <div class="hint-box" onclick="this.querySelector('.hint-content').style.display='block'">
-                <h4 style="color: #f59e0b; margin: 0;">🔍 تلميح 1 (اضغط للفتح)</h4>
-                <div class="hint-content">فكر في تقسيم المهمة. إذا كانت عن الواجهة، ابدأ بكتابة هيكل الـ HTML قبل التفكير بالألوان والـ CSS.</div>
+                <h4 style="color: #f59e0b; margin: 0;">🔍 Hint 1 (click to reveal)</h4>
+                <div class="hint-content">Think about breaking down the task. If it's about the UI, start by writing the HTML structure before thinking about colors and CSS.</div>
             </div>
 
             <div class="hint-box" onclick="this.querySelector('.hint-content').style.display='block'">
-                <h4 style="color: #f59e0b; margin: 0;">🔍 تلميح 2 (اضغط للفتح)</h4>
-                <div class="hint-content">حاول استخدام Flexbox أو Grid لترتيب العناصر بسهولة. تذكر أن تضيف class لكل عنصر لتسهيل استهدافه.</div>
+                <h4 style="color: #f59e0b; margin: 0;">🔍 Hint 2 (click to reveal)</h4>
+                <div class="hint-content">Try using Flexbox or Grid to arrange elements easily. Remember to add a class to each element to make targeting easier.</div>
             </div>
 
             <div class="hint-box" onclick="this.querySelector('.hint-content').style.display='block'">
-                <h4 style="color: #10b981; margin: 0;">🔧 مثال برمجي (اضغط للفتح)</h4>
+                <h4 style="color: #10b981; margin: 0;">🔧 Code Example (click to reveal)</h4>
                 <div class="hint-content">
-                    <div class="code-block" style="margin-top:0;">&lt;div class="container"&gt;<br>&nbsp;&nbsp;&lt;!-- الكود يوضع هنا --&gt;<br>&lt;/div&gt;</div>
+                    <div class="code-block" style="margin-top:0;">&lt;div class="container"&gt;<br>&nbsp;&nbsp;&lt;!-- Code goes here --&gt;<br>&lt;/div&gt;</div>
                 </div>
             </div>
         </div>
@@ -1429,17 +1429,17 @@ function openFeedbackModal(project) {
     modal.innerHTML = `
         <div class="portfolio-content">
             <button class="close-portfolio" onclick="document.getElementById('portfolio-modal').classList.remove('active')">✖</button>
-            <h2 style="margin-bottom: 25px; color: #8b5cf6;">📊 تقييم المشروع الذكي</h2>
+            <h2 style="margin-bottom: 25px; color: #8b5cf6;">📊 Smart Project Evaluation</h2>
             
-            <p style="color: var(--text-dim); font-size: 1.1rem; margin-bottom: 20px;">بناءً على متطلبات مشروع (${project.title})، إليك هذا التقييم التلقائي الافتراضي لمراجعة جودة كودك:</p>
+            <p style="color: var(--text-dim); font-size: 1.1rem; margin-bottom: 20px;">Based on the requirements of the (${project.title}) project, here is an automatic default evaluation to review your code quality:</p>
             
             <div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border: 1px solid var(--border);">
-                <p style="color: #10b981; font-size: 1.1rem; margin-bottom: 15px; font-weight: bold;">✅ الفكرة تم تطبيقها بشكل صحيح والمنطق الأساسي يعمل.</p>
-                <p style="color: #f59e0b; font-size: 1.1rem; margin-bottom: 15px; font-weight: bold;">⚠️ تأكد من توافق التصميم مع شاشات الجوال (Responsive).</p>
-                <p style="color: #ef4444; font-size: 1.1rem; font-weight: bold;">❌ قم بمراجعة تباين الألوان لتحسين قراءة النصوص.</p>
+                <p style="color: #10b981; font-size: 1.1rem; margin-bottom: 15px; font-weight: bold;">✅ The concept was implemented correctly and the core logic works.</p>
+                <p style="color: #f59e0b; font-size: 1.1rem; margin-bottom: 15px; font-weight: bold;">⚠️ Make sure the design is compatible with mobile screens (Responsive).</p>
+                <p style="color: #ef4444; font-size: 1.1rem; font-weight: bold;">❌ Review color contrast to improve text readability.</p>
             </div>
             
-            <button class="btn-start-journey" style="margin-top: 25px; width: 100%;" onclick="document.getElementById('portfolio-modal').classList.remove('active')">شكراً، سأقوم بالتعديل 👍</button>
+            <button class="btn-start-journey" style="margin-top: 25px; width: 100%;" onclick="document.getElementById('portfolio-modal').classList.remove('active')">Thanks, I'll make the adjustments 👍</button>
         </div>
     `;
     modal.classList.add('active');
